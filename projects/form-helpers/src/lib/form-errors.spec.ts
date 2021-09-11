@@ -15,7 +15,7 @@ describe('FormErrors', () => {
 
     const errors = getAllErrors(group);
 
-    expect(errors).toBe({
+    expect(errors).toEqual({
       one: { 'invalid': true },
       two: { 'error': true },
       three: { 'exception': true }

@@ -5,7 +5,7 @@ type Errors = { [key: string]: any };
 export const getAllErrors = (group: FormGroup): Errors => {
   const errors: Errors = {};
 
-  Object.keys(group).forEach((field) => {
+  Object.keys(group.controls).forEach((field) => {
     errors[field] = group.get(field)?.errors;
   });
 

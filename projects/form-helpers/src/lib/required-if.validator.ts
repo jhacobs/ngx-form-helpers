@@ -13,10 +13,10 @@ export const requiredIfValidator = (controlName: string, requiredControlName: st
       return null;
     }
 
-    if (!!requiredControl.value && control.value !== null) {
+    if (!!requiredControl.value && !!control.value) {
       return null;
     }
 
-    return { 'requiredIf': { controlValue: control.value, requiredControlValue: requiredControl.value, expectedValue } };
+    return { 'requiredIf': { controlValue: control.value, requiredControlValue: requiredControl.value } };
   }
 }

@@ -8,12 +8,12 @@ describe('MarkAllAsDirty', () => {
       two: new FormControl('')
     });
 
-    expect(group.controls[0].dirty).toBeFalse();
-    expect(group.controls[1].dirty).toBeFalse();
+    expect(group.get('one')?.dirty).toBeFalse();
+    expect(group.get('two')?.dirty).toBeFalse();
 
     markAllAsDirty(group);
 
-    expect(group.controls[0].dirty).toBeTrue();
-    expect(group.controls[1].dirty).toBeTrue();
+    expect(group.get('one')?.dirty).toBeTrue();
+    expect(group.get('two')?.dirty).toBeTrue();
   });
 });

@@ -10,7 +10,7 @@ describe('GetAllFieldNames', () => {
 
     const fields = getAllFieldNames(group);
 
-    expect(fields).toBe([
+    expect(fields).toEqual([
       'one',
       'two'
     ]);

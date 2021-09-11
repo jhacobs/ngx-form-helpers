@@ -15,6 +15,6 @@ describe('CustomPatternValidator', () => {
 
     expect(validControl.valid).toBeTrue();
     expect(invalidControl.valid).toBeFalse();
-    expect(invalidControl.errors).toBe({ controlError: true });
+    expect(invalidControl.errors).toEqual({ controlError: true });
   })
 });

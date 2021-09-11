@@ -1,6 +1,6 @@
 import { ValidatorFn, Validators } from "@angular/forms";
 
-export const numberValidator: ValidatorFn = Validators.pattern(/^[0-9]+\.[0-9]+$/);
+export const numberValidator: ValidatorFn = Validators.pattern(/^([1-9]\d*(\.|\,)\d*|0?(\.|\,)\d*[1-9]\d*|[1-9]\d*)$/);
 
 export const floatValidator: ValidatorFn = Validators.pattern(/^[0-9]+\.[0-9]+$/);
 
