@@ -1,0 +1,20 @@
+{
+  "name": "ngx-form-helpers",
+  "version": "0.0.1",
+  "description": "Angular Reactive Forms helpers",
+  "keywords": ["Angular", "Forms", "Reactive Forms"],
+  "homepage": "",
+  "repository": "github:user/repo",
+  "license": "MIT",
+  "author": {
+    "name": "Jacob Aretz"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0",
+    "@angular/forms": "^11.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}
