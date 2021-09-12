@@ -1,6 +1,9 @@
 # Form Helpers
 
-![GitHub](https://img.shields.io/github/license/jhacobs/ngx-form-helpers)
+![GitHub MIT](https://img.shields.io/github/license/jhacobs/ngx-form-helpers)
+![npm](https://img.shields.io/npm/v/ngx-form-helpers)
+![GitHub NodeJs Workflow](https://github.com/jhacobs/ngx-form-helpers/actions/workflows/node.js.yml/badge.svg)
+
 
 This package contains helper methods for Angular Reactive Forms.
   
