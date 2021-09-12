@@ -4,6 +4,8 @@
   "scripts": {
     "publish": "npm publish ./dist/form-helpers",
     "build": "ng build form-helpers",
+    "copy-files": "cp README.md dist/form-helpers/README.md && cp LICENSE dist/form-helpers/LICENSE",
+    "package": "run-s build copy-files",
     "test": "ng test"
   },
   "private": true,
@@ -33,6 +35,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^12.0.0",
+    "npm-run-all": "^4.1.5",
     "typescript": "~4.2.3"
   }
 }

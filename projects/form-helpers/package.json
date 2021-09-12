@@ -1,6 +1,6 @@
 {
   "name": "ngx-form-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular Reactive Forms helpers",
   "keywords": ["Angular", "Forms", "Reactive Forms"],
   "homepage": "https://github.com/jhacobs/ngx-form-helpers",
