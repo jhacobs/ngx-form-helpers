@@ -2,10 +2,8 @@
   "name": "ngx-form-helpers",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "publish": "npm publish ./dist/form-helpers",
+    "build": "ng build form-helpers",
     "test": "ng test"
   },
   "private": true,
